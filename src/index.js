@@ -8,6 +8,6 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render(
   <BrowserRouter>
     <App />
-  </BroweserRouter>
+  </BrowserRouter>
   , document.getElementById('root'));
 registerServiceWorker();
