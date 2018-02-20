@@ -17,6 +17,7 @@ class Album extends Component {
       duration: album.songs[0].duration,
       isPlaying: false
      };
+     console.log(album)
 
      this.audioElement = document.createElement('audio');
      this.audioElement.src = album.songs[0].audioSrc;
@@ -145,6 +146,8 @@ class Album extends Component {
             currentSong={this.state.currentSong}
             currentTime={this.audioElement.currentTime}
             duration={this.audioElement.duration}
+            artist={this.state.album.artist}
+            volume={this.state.volume}
             handleSongClick={() => this.handleSongClick(this.state.currentSong)}
             handlePrevClick={() => this.handlePrevClick()}
             handleNextClick={() => this.handleNextClick()}
