@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.App {
+  text-align: center;
+}
+
+#nav-h1 {
+  display: block;
+  background-color: hsl(300,100%,25%);
+
+}
+
+a {
+  color: rgba(150, 169, 169, .7);
+  text-decoration: none;
+}
